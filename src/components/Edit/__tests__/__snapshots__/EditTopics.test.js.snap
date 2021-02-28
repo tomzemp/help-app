@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditTopics Renders as expected 1`] = `
+<div>
+  <div
+    class="outerItemListBox"
+  >
+    <div
+      class="itemListBox"
+    >
+      <div
+        class="innerItemListBox"
+      >
+        <div
+          class="topicListDiv"
+          id="r"
+        >
+          <span>
+            rabbits
+          </span>
+        </div>
+        <style>
+          
+            .topicListDiv {
+                overflow: hidden;
+                padding: var(--spacers-dp4);
+                cursor: default;
+            }
+            .topicListDivHighlighted {
+                overflow: hidden;
+                padding: var(--spacers-dp4);
+                background-color: var(--colors-teal700);
+                cursor: default;
+            }
+            .topicListDivHighlighted span {
+                color: var(--colors-white);
+            }
+            .topicListDiv:hover {
+                background-color: var(--colors-grey200);
+            }
+        
+        </style>
+        <div
+          class="topicListDiv"
+          id="d"
+        >
+          <span>
+            dogs
+          </span>
+        </div>
+        <style>
+          
+            .topicListDiv {
+                overflow: hidden;
+                padding: var(--spacers-dp4);
+                cursor: default;
+            }
+            .topicListDivHighlighted {
+                overflow: hidden;
+                padding: var(--spacers-dp4);
+                background-color: var(--colors-teal700);
+                cursor: default;
+            }
+            .topicListDivHighlighted span {
+                color: var(--colors-white);
+            }
+            .topicListDiv:hover {
+                background-color: var(--colors-grey200);
+            }
+        
+        </style>
+      </div>
+      <div
+        class="actionButtonsContainer"
+      >
+        <div
+          class="actionButtons"
+        >
+          <div
+            class="actionButton"
+          >
+            <button
+              class="jsx-2371629422 small icon-only"
+              data-test="dhis2-uicore-button"
+              disabled=""
+              name="up_button"
+              type="button"
+            >
+              <span
+                class="jsx-2371629422 button-icon"
+              >
+                <svg
+                  fill="#404B5A"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <polygon
+                    points="8 2 6.94 3.06 11.13 7.25 2 7.25 2 8.75 11.13 8.75 6.94 12.94 8 14 14 8"
+                    transform="rotate(-90 8 8)"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div
+            class="actionButton"
+          >
+            <button
+              class="jsx-2371629422 small icon-only"
+              data-test="dhis2-uicore-button"
+              disabled=""
+              name="down_button"
+              type="button"
+            >
+              <span
+                class="jsx-2371629422 button-icon"
+              >
+                <svg
+                  fill="#404B5A"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <polygon
+                    points="8 2 6.94 3.06 11.13 7.25 2 7.25 2 8.75 11.13 8.75 6.94 12.94 8 14 14 8"
+                    transform="matrix(0 1 1 0 0 0)"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    
+                .outerItemListBox {
+                    width: 500px;
+                    margin-bottom: var(--spacers-dp16);
+                }
+                .itemListBox {
+                    margin-right: var(--spacers-dp4);
+                    border: 1px solid var(--colors-grey500);
+                    border-radius: 3px;
+                }
+                .innerItemListBox {
+                    min-height: 200px;
+                    max-height: 300px;
+                    overflow-y: auto;
+                }
+                .actionButtonsContainer {
+                    border-top: 1px solid var(--colors-grey500);
+                    padding: var(--spacers-dp4);
+                    display: flex;
+                }
+                .actionButtons {
+                    margin-left: auto;
+                    display: flex;
+                }
+                .actionButton {
+                    margin-left: var(--spacers-dp4);
+                }
+            
+  </style>
+  <div>
+    <div
+      class="jsx-1141087211 "
+      data-test="dhis2-uiwidgets-inputfield"
+    >
+      <div
+        class="jsx-3375842594 "
+        data-test="dhis2-uiwidgets-inputfield-content"
+      >
+        <div
+          class="jsx-1942496442 "
+          data-test="dhis2-uicore-box"
+        >
+          <div
+            class="jsx-3353877153 jsx-1090541828 input"
+            data-test="dhis2-uicore-input"
+          >
+            <input
+              class="jsx-3353877153 jsx-1090541828 "
+              placeholder="Enter a new topic name"
+              type="text"
+              value=""
+            />
+            <div
+              class="jsx-3353877153 jsx-1090541828 status-icon"
+            />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div
+      class="addButton"
+    >
+      <button
+        class="jsx-2371629422 primary"
+        data-test="dhis2-uicore-button"
+        disabled=""
+        type="button"
+      >
+        Add Topic
+      </button>
+    </div>
+  </div>
+  <style>
+    
+            .addButton {
+                margin-top: var(--spacers-dp4);
+            }
+        
+  </style>
+</div>
+`;
