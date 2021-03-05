@@ -5,6 +5,10 @@ This is a conceptual app to show a possible way to allow DHIS2 users to define t
 
 ![](help-app.gif)
 
+## Install
+
+A copy of this app for installation within DHIS2 is available in the releases section. In order to have edit permissions within the app, you need to have a user role named `Superuser` (note specific name) or be assigned the authorities `ALL`.
+
 ## Technical
 
 This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform). Redux is used for state management. To run locally, you can fork this repo, run `yarn install` and then `yarn start`. The app was developed running node v14.15.4.
