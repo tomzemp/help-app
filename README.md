@@ -3,6 +3,8 @@
 
 This is a conceptual app to show a possible way to allow DHIS2 users to define their own help topics and provide customised help information within their DHIS2 instances. 
 
+![](help-app.gif)
+
 ## Technical
 
 This project was bootstrapped with [DHIS2 Application Platform](https://github.com/dhis2/app-platform). Redux is used for state management. To run locally, you can fork this repo, run `yarn install` and then `yarn start`. The app was developed running node v14.15.4.
